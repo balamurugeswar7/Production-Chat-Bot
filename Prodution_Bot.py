@@ -1254,8 +1254,6 @@ class AutomationEngine:
 class ProductionSupportBot:
     def __init__(self):
         print("\n" + "="*80)
-        print("24/7 PRODUCTION SUPPORT BOT - INTERACTIVE DEMO WITH ENHANCED TRAINING")
-        print("BITS Pilani - Capstone Project")
         print("="*80)
         
         print("\nINITIALIZING SYSTEM COMPONENTS...")
@@ -1669,24 +1667,12 @@ class ProductionSupportBot:
         print("   Category and severity distribution")
         
         self.show_dashboard()
+
         
-        print(f"\nNEXT PHASE:")
-        print("   RESTful API Development with Swagger")
-        print("   Real-time Web Interface with React")
-        print("   Performance Optimization & Scalability")
-        print("   User Acceptance Testing & Deployment")
-        
-        print(f"\nSTUDENT: Balamurugeswar V")
-        print(f"ORGANIZATION: HCL Tech, Nagpur")
-        print(f"INSTITUTION: BITS Pilani")
-        print("\n" + "="*80)
         print("ENHANCED DEMONSTRATION COMPLETED SUCCESSFULLY!")
-        print("="*80)
 
 def main():
     print("\n24/7 PRODUCTION SUPPORT BOT - INTERACTIVE DEMO WITH ENHANCED TRAINING")
-    print("Starting Interactive Mode...")
-    print("="*80)
     
     bot = ProductionSupportBot()
     bot.interactive_mode()
